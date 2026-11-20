@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "SENAI Lanches",
+    "slug": "senai-lanches",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": { "backgroundColor": "#1F8FDB" },
+    "android": { "package": "br.com.senai.lanches" },
+    "ios": { "supportsTablet": true }
+  }
+}

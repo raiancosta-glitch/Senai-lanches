@@ -1,0 +1,41 @@
+SENAI LANCHES — PROJETO EXPO GO
+
+COMO EXECUTAR
+1. Instale o Node.js no computador.
+2. Extraia esta pasta.
+3. Abra o terminal dentro da pasta SENAI-Lanches-Expo.
+4. Execute: npm install
+5. Execute: npx expo install --fix
+6. Execute: npx expo start
+7. Instale o Expo Go no celular.
+8. Leia o QR Code exibido no terminal/navegador usando o Expo Go.
+   Computador e celular devem estar na mesma rede Wi-Fi. Se não conectar,
+   execute: npx expo start --tunnel
+
+ARQUIVOS
+- App.js: código principal do aplicativo React Native.
+- app.json: configuração do Expo.
+- package.json: dependências e comandos.
+
+FUNCIONALIDADES
+- Login/cadastro demonstrativo com seleção Aluno/Atendente.
+- Cardápio, adicionar/remover itens, carrinho e total.
+- Confirmar pedido e acompanhar o status.
+- Painel da atendente para mudar status dos pedidos.
+- Menu lateral e navegação entre telas.
+
+IMPORTANTE
+O login é apenas demonstrativo: não existe autenticação real, servidor ou banco
+compartilhado. Os pedidos ficam somente na memória enquanto o app está aberto.
+Para um projeto escolar com contas e pedidos reais, será necessário conectar
+um backend/banco de dados.
+
+
+IMAGENS DOS PRODUTOS
+As fotos enviadas foram adicionadas à pasta assets. Sanduíche, pizza e biscoito aparecem com fotos no cardápio e no carrinho. O suco continua com emoji porque não foi enviada uma foto dele.
+
+
+ATUALIZACAO DESTA VERSAO
+- Foto do suco natural adicionada ao cardapio e ao carrinho.
+- Corrigido o campo de login: o componente de entrada foi movido para fora da tela principal para evitar que perca o foco a cada letra digitada.
+- Ajustado o comportamento do teclado no formulario de login.
